@@ -26,7 +26,7 @@
 	<body>	
 		<div id="home-content" class="container-fluid customContainer">
 			<div class="row">
-				<div class="col 1">
+				<div class="col-6 mt-5">
 					<div class="" id="logoLogin3">
 					
 					</div>
@@ -41,7 +41,7 @@
 				</div>-->
 			</div>
 
-			<div class="row" style="margin-top:40px">
+			<div class="row">
 				<?php include 'afiliados.php';?>
 			</div>
 
@@ -76,8 +76,6 @@
                 <a href="../regalias">Canjeos</a>
                 <a href="index.php">Historial</a>
                 <a href="../rangos">Rangos de express</a>
-				<a href="../inicio.php">Cerrar Sesion</a>
-				
             </nav>
             <label for="btn-menu"><img src="img/cancelar.png"></label>
         </div>

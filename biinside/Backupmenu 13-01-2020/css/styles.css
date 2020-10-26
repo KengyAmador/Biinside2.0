@@ -39,7 +39,7 @@ ul{
 	margin-top: 15px;
 	margin-bottom: 10px;
 	text-transform: uppercase;
-	color: #1c1c1c;
+	color: #C400EB;
 	font-weight: 700;
 }
 
@@ -82,7 +82,7 @@ ul{
 	left: 2%;
 	height: 60%;
 	background-color: #fff;
-	border: 2px solid #1c1c1c;
+	border: 2px solid #C400EB;
 	z-index: 99;
 
 	background: white;
@@ -90,7 +90,7 @@ ul{
 }
 
 #tablaClientes{
-	border-bottom: 2px solid #1c1c1c;
+	border-bottom: 2px solid #C400EB;
 }
 
 .strip2{
@@ -207,8 +207,8 @@ table th{
 }
 
 table td{
-	border-right: 1px solid #1c1c1c !important;
-	border-left: 1px solid #1c1c1c !important;
+	border-right: 1px solid #C400EB !important;
+	border-left: 1px solid #C400EB !important;
 }
 
 table tbody{

@@ -3,7 +3,7 @@
 body{background: rgb(250,250,250); }
 h2{ margin-bottom: 20px; text-align: center; color: #BF24B5;}
 textarea{ resize:none; }
-button{ margin-top: 35px; margin-bottom: 20px !important; font-weight: bold !important; padding: .6rem 1rem !important; background-color: #1c1c1c !important; border: none !important; border-radius: 8px !important;}
+button{ margin-top: 35px; margin-bottom: 20px !important; font-weight: bold !important; padding: .6rem 1rem !important; background-color: #2A00D7 !important; border: none !important; border-radius: 8px !important;}
 
 select { 
     text-transform: uppercase;
@@ -45,7 +45,7 @@ select {
 }
 
 .rosa{
-	color: #1c1c1c;
+	color: #C400EB;
 }
 
 .gris{
@@ -53,13 +53,13 @@ select {
 }
 
 .borde {
-	border: 2px solid #1c1c1c !important; /* Old browsers */
+	border: 2px solid #C400EB !important; /* Old browsers */
 	border-radius: 15px !important;
 	outline: none !important;
 }
 
 .fondoHecho{
-	background-color: #1c1c1c;
+	background-color: #C400EB;
 	color: white;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -72,7 +72,7 @@ select {
 
 .tituloGran{
 	font-size: 3.7rem;
-	color: #1c1c1c;
+	color: #C400EB;
 }
 
 .btnInicio{
@@ -86,8 +86,7 @@ select {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 7px;
-	padding-bottom: 7px;
-	background-color: #1c1c1c;
+    padding-bottom: 7px;
 }
 
 .hechoBtn{
@@ -100,7 +99,7 @@ select {
 }
 
 .btnInicio:hover{
-	background-color: grey;
+	background-color: #DDD;
 }
 
 .titulo2{
@@ -152,15 +151,10 @@ select {
 }
 
 .btnInit{
-	/*border-color: transparent;
-	background: rgb(77,38,131) !important; /* Old browsers 
-	background: -moz-linear-gradient(left, rgba(77,38,131,1) 1%, rgba(206,20,119,1) 100%) !important; /* FF3.6-15 
-	background: -webkit-linear-gradient(left, rgba(77,38,131,1) 1%,rgba(206,20,119,1) 100%) !important; /* Chrome10-25,Safari5.1-6 
+	border-color: transparent;
+	background: rgb(77,38,131) !important; /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(77,38,131,1) 1%, rgba(206,20,119,1) 100%) !important; /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(77,38,131,1) 1%,rgba(206,20,119,1) 100%) !important; /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, rgba(77,38,131,1) 1%,rgba(206,20,119,1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d2683', endColorstr='#ce1477',GradientType=1 ) !important; /* IE6-9 */
-	background-color: #1c1c1c;
-}
-.btnIniciar{
-	background-color: #1c1c1c;
-	color: white;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d2683', endColorstr='#ce1477',GradientType=1 ) !important; /* IE6-9 */
 }

@@ -15,14 +15,13 @@
       <div class="form-group pointer">
               <label for="nombre" class="form-control-label">Tipo:</label>
               <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <link rel="stylesheet" href="stylenm.css">
-            <label class="btn btn-info active btn-dark btn-sm">
+            <label class="btn btn-info active">
               <input type="radio" name="options" id="option1" value="CATEGORIA"  autocomplete="off" checked> CATEGORIA MENÚ
             </label>
-            <label class="btn btn-info active btn-dark btn-sm">
+            <label class="btn btn-info">
               <input type="radio" name="options" id="option2" value="ACCION"  autocomplete="off"> ACCIÓN
             </label>
-            <label class="btn btn-info active btn-dark btn-sm">
+            <label class="btn btn-info">
               <input type="radio" name="options" id="option3" value="EXTRA"  autocomplete="off"> EXTRAS MENÚ
             </label>
           </div>           

@@ -38,7 +38,7 @@
 
 			<div class="row">
 				<div class="col-12">
-					<h2 style="margin-bottom:25px;color:#1c1c1c;">Canjear Bii Checks</h2>
+					<h2 style="margin-bottom:25px;color:#C400EB;">Canjear Bii Checks</h2>
 				</div>
 				<div class="col-2 offset-3">
 						<label class="col-form-label labelTitulo">Bii Checks:</label>

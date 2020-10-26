@@ -30,10 +30,6 @@
 	<body>
 	
 		<div id="home-content" class="container-fluid customContainer">
-		<div class="col 1">
-					<div class="" id="logoLogin3">
-					</div>
-				</div>
 			<div class="row">
 			
 
@@ -58,7 +54,11 @@
 						</div>
 				</div>
 				
-				
+				<div class="col-md-6 left">
+					<div class="" id="logoLogin3">
+					
+					</div>
+				</div>
 				
 			
 				
@@ -73,7 +73,7 @@
 				</div>-->
 			</div>
 
-			<div class="row" style="margin-top:40px">
+			<div class="row">
 				<div class="col-12">
 					<?php 
 						if($usuarioRol !== '2' && $codAfiliado !== 'BI0008' && $codAfiliado !== 'BI0009' && $codAfiliado !== 'BI0010'){
@@ -120,7 +120,6 @@
                 <a href="../regalias">Canjeos</a>
                 <a href="../historial">Historial</a>
                 <a href="../rangos">Rangos de express</a>
-				<a href="../inicio.php">Cerrar Sesion</a>
             </nav>
             <label for="btn-menu"><img src="img/cancelar.png"></label>
         </div>

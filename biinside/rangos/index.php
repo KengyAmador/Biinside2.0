@@ -26,12 +26,11 @@
 	<body>	
 		<div id="home-content" class="container-fluid customContainer">
 			<div class="row">
-				<div class="col 1">
+				<div class="col-6 mt-5">
 					<div class="" id="logoLogin3">
 					
 					</div>
 				</div>
-				<div stlyle> </div>
 				<!--<div class="col-6 mt-5 ">
 				<a class="btn btn-primary btn_regresar" style="color:white;cursor:pointer;" href="../">Regresar</a>
 					<h3 class="rosa derecha"> <?php echo $empresa;?></h3>
@@ -41,7 +40,7 @@
 				</div>-->
 			</div>
 
-			<div class="row" style="margin-top:40px">
+			<div class="row">
 				<div class="col-12">
 					<?php include 'afiliados.php';?>
 				</div>
@@ -97,7 +96,6 @@
                 <a href="../regalias">Canjeos</a>
                 <a href="../historial">Historial</a>
                 <a href="index.php">Rangos de express</a>
-				<a href="../inicio.php">Cerrar Sesion</a>
             </nav>
             <label for="btn-menu"><img src="img/cancelar.png"></label>
         </div>

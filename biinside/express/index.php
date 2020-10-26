@@ -26,7 +26,7 @@
 	<body>	
 		<div id="home-content" class="container-fluid customContainer">
 			<div class="row">
-				<div class="col 1">
+				<div class="col-6 mt-5">
 					<div class="" id="logoLogin3">
 					
 					</div>

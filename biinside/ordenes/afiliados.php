@@ -8,12 +8,11 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" style="text-align:left;float: left;">
-       
-        
-        <div id="detaOrden" style="float: left; display:inline-block">
+      <div class="modal-body" style="text-align:left;">
         <h3>DETALLES</h3>
-            <table id="tablaDetaOrd" class="table tablaEvento" cellspacing="0" width="34%">
+        <hr>
+        <div id="detaOrden">
+            <table id="tablaDetaOrd" class="table tablaEvento" cellspacing="0" width="100%">
               <thead>
                   <tr>
                       <th>FILA</th>
@@ -24,13 +23,11 @@
                   </tr>
               </thead>
           </table>
-          <hr>
         </div>
-        
-        
-        <div id="extraDeta" style="float: left; display:inline-block">
         <h3>EXTRAS</h3>
-            <table id="tablaExtOrd" class="table tablaEvento" cellspacing="0" width="34%">
+        <hr>
+        <div id="extraDeta">
+            <table id="tablaExtOrd" class="table tablaEvento" cellspacing="0" width="100%">
               <thead>
                   <tr>
                       <th>NOMBRE</th>
@@ -42,11 +39,10 @@
           </table>
         </div>
 
-        
-       
-        <div id="pedidoPremios" style="float: left; display:inline-block">
+        <hr>
         <h3>PREMIOS CANJEOS</h3>
-            <table id="tablaPreOrd" class="table tablaEvento" cellspacing="0" width="34%">
+        <div id="pedidoPremios">
+            <table id="tablaPreOrd" class="table tablaEvento" cellspacing="0" width="100%">
               <thead>
                   <tr>
                       <th>ID</th>
@@ -113,7 +109,7 @@
 </div>
 
 <div>
-    <h2 style="margin-top: 50px">Ordenes de Menu</h2>
+    <h2>Ordenes de Menu</h2>
 	<div id="table-content">
       <table id="tablaClientes" class="table tablaEvento" cellspacing="0" width="100%">
           <thead>
