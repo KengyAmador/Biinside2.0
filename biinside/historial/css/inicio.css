@@ -29,7 +29,7 @@
 }
 
 .btnInicio{
-	background-color: white;
+	background-color: #1c1c1c;
 	border-color: grey;
 	border-radius: 5px;
 	font-weight: 600;
@@ -45,4 +45,8 @@
 
 .btnInicio:hover{
 	background-color: #DDD;
+}
+.btnIniciar{
+	background-color: #1c1c1c;
+	color: white;
 }

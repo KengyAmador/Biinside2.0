@@ -8,11 +8,12 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" style="text-align:left;">
+      <div class="modal-body" style="text-align:left;float: left;">
+       
+        
+        <div id="detaOrden" style="float: left; display:inline-block">
         <h3>DETALLES</h3>
-        <hr>
-        <div id="detaOrden">
-            <table id="tablaDetaOrd" class="table tablaEvento" cellspacing="0" width="100%">
+            <table id="tablaDetaOrd" class="table tablaEvento" cellspacing="0" width="34%">
               <thead>
                   <tr>
                       <th>FILA</th>
@@ -23,11 +24,13 @@
                   </tr>
               </thead>
           </table>
+          <hr>
         </div>
+        
+        
+        <div id="extraDeta" style="float: left; display:inline-block">
         <h3>EXTRAS</h3>
-        <hr>
-        <div id="extraDeta">
-            <table id="tablaExtOrd" class="table tablaEvento" cellspacing="0" width="100%">
+            <table id="tablaExtOrd" class="table tablaEvento" cellspacing="0" width="34%">
               <thead>
                   <tr>
                       <th>NOMBRE</th>
@@ -39,10 +42,11 @@
           </table>
         </div>
 
-        <hr>
+        
+       
+        <div id="pedidoPremios" style="float: left; display:inline-block">
         <h3>PREMIOS CANJEOS</h3>
-        <div id="pedidoPremios">
-            <table id="tablaPreOrd" class="table tablaEvento" cellspacing="0" width="100%">
+            <table id="tablaPreOrd" class="table tablaEvento" cellspacing="0" width="34%">
               <thead>
                   <tr>
                       <th>ID</th>

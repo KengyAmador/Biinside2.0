@@ -39,7 +39,7 @@ ul{
 	margin-top: 15px;
 	margin-bottom: 10px;
 	text-transform: uppercase;
-	color: #C400EB;
+	color: #1c1c1c;
 	font-weight: 700;
 }
 
@@ -82,7 +82,7 @@ ul{
 	left: 2%;
 	height: 60%;
 	background-color: #fff;
-	border: 2px solid #C400EB;
+	border: 2px solid #1c1c1c;
 	z-index: 99;
 
 	background: white;

@@ -29,9 +29,8 @@
 	<body>	
 	<div class="container">
             <div class="btn-menu">
-                <label for="btn-menu"><img src="img/menu.png"></label>
+				<label for="btn-menu"><img src="img/menu.png"></label>
             </div>
-           
     <input type="checkbox" id="btn-menu">
     <div class="container-menu">
         <div class="cont-menu">
@@ -42,6 +41,7 @@
                 <a href="regalias">Canjeos</a>
                 <a href="historial">Historial</a>
                 <a href="rangos">Rangos de express</a>
+				<a href="inicio.php">Cerrar Sesion</a>
             </nav>
             <label for="btn-menu"><img src="img/cancelar.png"></label>
         </div>
@@ -51,16 +51,17 @@
 			
 				<div class="col-6 mt-5">
 					<div class="" id="logoLogin3">
+						
 					
 					</div>
 				</div>
-				
-				<!-- INFORMACION -->
-				<div class="col-6 mt-5">
-					<h3 class="rosa derecha"><?php echo $empresa; ?></h3>
-					<h3 class="gris derecha"><?php echo $codAfiliado; ?></h3>
-					<h3 class="gris derecha"><?php echo $usuarioNombre; ?></h3>
+				<div>
+					<span style="position:absolute; top: 93%; left:90%"  class="rosa derecha"><?php echo $empresa; ?></span>
+					<span style="position:absolute; top: 96%; left:90%" class="rosa derecha"><?php echo $usuarioNombre; ?></span>
+					<span style="position:absolute; top: 19px; right:93%" class="rosa derecha"><?php echo $codAfiliado; ?></span>
 				</div>
+				<!-- INFORMACION -->
+				
 			</div>
 <!--
 			<div class="row">

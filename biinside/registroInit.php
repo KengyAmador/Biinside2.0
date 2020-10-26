@@ -57,7 +57,7 @@
 		</div>
 		<div class="col-12 col-md-7">
 			<div class="d-flex justify-content-end">
-				<button type="button" class="btn btn-primary btnInit" id="btnEnviar" onclick="procesar()">ENVIAR INFORMACIÓN</button>
+				<button type="button" class="btn btn-primary btnInit" id="btnEnviar" style="background-color:1c1c1c; color:white" onclick="procesar()">ENVIAR INFORMACIÓN</button>
 			</div>
 		</div>
 	</div>

@@ -72,16 +72,16 @@
   </div>
 </div>
 
-<div class="col-3 form-group">
+<div class="">
     <label for="recipient-name" class="form-control-label">Fecha de consulta:</label>
     <input type="date" class="form-control" step="1" id="fechaReporte" name="fechaReporte">
  </div>  
 
-  <div class="col-3 form-group">
-    <button type="button" style="margin-top: 24px" class="btn btn-primary optionsBarBTN" id="btnConsultar" onclick="listarFacturasD()">Consultar</button>
+  <div>
+    <button type="button" style="margin-top: 34px; padding-left: 12px" class="btn btn-primary optionsBarBTN" id="btnConsultar" onclick="listarFacturasD()">Consultar</button>
  </div>
 
-<div class="col-12 form-group">
+<div class="col-12 form-group" >
     <div id="table-content">
     <table id="tablaClientes" class="table tablaEvento" cellspacing="0" width="100%">
         <thead>

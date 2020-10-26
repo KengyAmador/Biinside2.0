@@ -76,6 +76,8 @@
                 <a href="../regalias">Canjeos</a>
                 <a href="index.php">Historial</a>
                 <a href="../rangos">Rangos de express</a>
+				<a href="../inicio.php">Cerrar Sesion</a>
+				
             </nav>
             <label for="btn-menu"><img src="img/cancelar.png"></label>
         </div>

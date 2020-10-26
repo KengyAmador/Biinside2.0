@@ -85,3 +85,17 @@
     text-align: left;
 }
 
+.btnIniciar{
+	background-color: #1c1c1c;
+	color: white;
+}
+
+.btn:hover{
+	background-color: #1c1c1c;
+	border-color: #343a40;
+}
+
+.btn:active::selection{
+	background-color: #1c1c1c;
+	border-color: #343a40;
+}

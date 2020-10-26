@@ -25,7 +25,7 @@
 		                <div class="row">
 		                    <div class="col-4 offset-4" >
 		                        <div class="form-group">
-		                            <input id="usuario" name= "usuario" type="text" class="form-control borde" placeholder="Nombre de usuario" required>
+		                            <input id="usuario"  name= "usuario" type="text" class="form-control borde" placeholder="Nombre de usuario" required>
 		                        </div>
 		                    </div>
 		                </div>
@@ -43,7 +43,7 @@
 	                <div class="row">
 	                    <!--Ingresar-->
 	                    <div class="col-12 mt-4">
-			                <input type="submit" class="btn btn-primary" value="Iniciar Sesión" id="btnLogin" name="btnLogin"/>  
+			                <input type="submit" class="btn " value="Iniciar Sesión" id="btnLogin" name="btnLogin" style="background-color: #1c1c1c; color:white"/>  
 	                    </div>
 	                </div>	
             	</div>
