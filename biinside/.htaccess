@@ -1,0 +1,7 @@
+#PROTEGER archivo .htaccess
+<files ~"^.*\.([Hh][Tt][Aa]")>
+Require all denied
+</files>
+
+#Prevenir el listado de archivos
+Options All -Indexes

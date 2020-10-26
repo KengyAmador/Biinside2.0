@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+/******************************************************************************************************
+
+		HOJA DE ESTILOS
+
+*****************************************************************************************************/
+*{
+	padding: 0;
+	margin: 0;	
+}
+
+p{
+	color: #555;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 400;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+@font-face {
+	font-family: "Montserrat700";
+	src: url("../fuentes/mont700.woff2") format("woff2");
+}
+
+/*/////////////////////////////////////////////////*/
+
+.logo{
+	
+}
+
+.navbar{
+	z-index: 100;
+}
+
+/*/////////////////////////////////////////////////*/
+
+textarea{
+	resize: none;
+}
+
+header{
+	height: 85px;
+	background-color: black;
+	position: relative;
+	width: 100%;
+	display: flex;
+}
+
+
+.barraNavegacion{
+	text-align: center;
+	width: 100%;
+}
+
+.navbar{
+	position: fixed;
+ 	width: 100%;
+ 	padding-top: 13px;
+ 	padding-bottom: 9px;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-inverse .navbar-nav .nav-link:hover:after{
+    visibility: visible;
+}
+
+.navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .active>.nav-link,
+.navbar-inverse .navbar-nav .nav-link.active,
+.navbar-inverse .navbar-nav .nav-link.show,
+.navbar-inverse .navbar-nav .show>.nav-link,
+.nav-link:hover,
+.active .nav-link{
+	color: #DFD62F;
+}
+
+.bg-inverse{
+	background-color: rgba(0,0,0,1) !important;
+	border-bottom: solid 1px grey;
+}
+
+.bg-color-scroll{
+	background-color: rgb(0,0,1) !important;
+	padding-top: 18px;
+	padding-bottom: 9px;
+}
+
+.customToggler.navbar-toggler {
+    border-color: rgba(255,255,255, 0.6);
+}
+
+.customToggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.superior{
+	margin-top: 50px;
+}
+
+.inferior{
+	margin-top: 50px;
+}
+
+.btn-secondary{
+	background-color: transparent !important;
+	border: none !important;
+	margin-left: 10px;
+}
+
+/* Media Queries segun Bootstrap*/
+
+@media (max-width: 576px){
+	.logo{
+		width: 150px;
+	}
+}
+
+@media (min-width: 576px){
+	.logo{
+		width: 180px;
+	}
+}
+
+@media (min-width: 768px){
+}
+
+@media (min-width: 992px){
+
+	.logo{
+		width: 200px;
+	}
+
+	.navbar-inverse .navbar-nav .nav-link:after{
+	    content: "";
+	    display: block;
+	    background-color: #DFD62F;
+	    height: 2px;
+	    width: 100%;
+	    visibility: collapse;
+	    -webkit-transition: 0.2s width;
+	    transition: 0.2s width;
+	}
+
+	.seccion{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}	
+}
+
+@media (min-width: 1200px){
+
+	.logo{
+		width: 220px;
+	}
+
+	.seccion{
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+}
+
+@media (min-width: 1800px){
+	.logo{
+		width: 250px;
+	}
+}
+
+@media (max-width: 992px){
+
+	.logo{
+		margin: 0px;
+	}
+
+	.navbar{
+		position: fixed;
+		margin-top: 0;
+		z-index: 10000;
+	}
+}
+
+footer{
+	padding-top: 40px;
+	height: 250px;
+	background-color: #1C1D21;
+	color: white;
+	text-align: center;
+}
+
+footer a, footer a:hover{
+	color: #fff;
+	font-weight: 400;
+}
+
+footer p{
+	color: #ddd;
+	font-weight: 200;
+	font-size: 1.0rem;
+}
+
+.enlace-social{
+	text-decoration: none;
+	color: #fff;
+	font-size: 3.0rem;
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+/*/////////////////////////////////////////////////*/
+
+
+/*-------------------------------------------------- FIN ------------------------------------------------*/

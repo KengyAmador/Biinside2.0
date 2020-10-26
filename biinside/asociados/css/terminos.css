@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* HOJA DE ESTILOS*/
+
+section{
+	margin: 20px 0;
+}
+
+.about{
+	
+}
+
+.about h2,
+.about h3,
+.about h4{
+	color: #333;
+	font-weight: 400;
+}
+
+.about h2{
+	color: #1F57A1;
+	font-size: 2.5rem;
+	font-weight: 200;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.about h3{
+	font-size: 2.0rem;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.more-info-link{
+	margin-left: 20px;
+}
+
+.lista-parrafo{
+	list-style-type: circle;
+	color: #777;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 200;
+}
+
+/* Media Queries segun Bootstrap*/
+
+/* Dispositivos Pequeños (Celulares, apaisado) */
+@media (max-width: 768px){
+	.lista-parrafo{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+/* Dispositivos Medianos (Tabletas) */
+@media (min-width: 768px){
+	.lista-parrafo{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}
+
+/* Dispositivos grandes (Monitores) */
+@media (min-width: 992px){
+	section{ /* General style */
+		margin: 40px 0;
+	}
+
+	.about h2{
+		color: #1F57A1;
+		font-size: 3.5rem;
+		font-weight: 200;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.about h3{
+		font-size: 2.5rem;
+		margin-top: 20px;
+	}
+
+	.about h4{
+		margin-bottom: 10px;
+		color: #1f1f1f;
+		font-size: 1.6rem;
+		font-weight: 600;
+	}
+
+	.lista-parrafo{
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+	
+	.about h2,
+	.about h3,
+	.about h4{
+		font-weight: 300;
+	}
+}
+
+/* Dispositivos extra grandes (Monitores grandes) */
+@media (min-width: 1200px){
+	
+}
+
+/*/////////////////////////////////////////////////*/
+
+
+/*-------------------------------------------------- END ------------------------------------------------*/

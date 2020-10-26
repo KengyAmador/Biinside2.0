@@ -1,0 +1,23 @@
+
+
+#Configuracion del servidor para el webservice
+
+#Generar y activar diferentes urls
+Options +FollowSymLinks -MultiViews
+
+#Reescribir las direcciones
+RewriteEngine On
+
+#Regla para reescribir las direcciones
+#Todos los que decidan acceder a la direccion establecida.
+#En este caso todo el trafico que vaya a la carpeta productos
+#Se mandaria al archivo producto.php.
+#Si en la URL se pone cualquier cosa y se encuentra dentro de la carpeta productos
+#Entonces la url no cambiaria ni tiraria error simplemente se cargaria el archivo
+#Manteniendo la url escrita.
+#Esto permite definir multiples respuestas para el mismo archivo.
+RewriteRule ^([^/]+)/([^/]+) funciones.php?peticion=$1&detalle=$2 [L,QSA]
+
+#Prevenir el listado de archivos
+Options All -Indexes
+

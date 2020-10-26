@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+/******************************************************************************************************
+
+HOJA DE ESTILOS BIINSIDE
+
+*****************************************************************************************************/
+
+
+.content{
+	min-height: 600px;
+	padding-left: 2%; /* Modificar si se cambia la clase customContainer */
+}
+
+/*/////////////////////////////////////////////////*/
+
+#barra-informacion{
+	position: fixed;
+	text-align: left;
+	top: 0px;
+	right: 0px;
+	padding-top: 5px;
+	padding-left: 20px;
+	width: 83%;
+	height: 80px;
+	z-index: 98;
+	background: rgba(250,250,250,0.95);
+}
+
+#barra-informacion h1{
+	margin: 0px;
+	margin-left: -20px;
+	padding: 0px;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-left: 20px;
+	/*border-bottom: 2px rgb(40, 94, 101) solid;*/
+	font-size: 3.0rem;
+
+	-mox-box-shadow: 0 10px 5px -10px rgb(6, 49, 55);
+	-webkit-box-shadow: 0 10px 5px -10px rgb(6, 49, 55);
+	box-shadow: 0 10px 5px -10px rgb(6, 49, 55);
+
+}
+
+#usuario-actual{
+	height: 40px;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+#usuario-actual>h4{
+	font-size: 1.0rem;
+	margin-top: 1px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#imgUsuario{
+	font-size: 3.5rem;
+	color: rgb(150,150,150);
+}
+
+#usuario-actual:hover{
+	color: rgba(250,150,60,0.8);
+}
+
+#usuario-actual:hover #imgUsuario{
+	color: rgba(250,150,60,0.8);	
+}
+
+/* Barra de scroll */
+
+/*internet explorer scrollbalken*/
+body{
+  scrollbar-base-color: #C0C0C0;
+  scrollbar-base-color: #C0C0C0;
+  scrollbar-3dlight-color: #C0C0C0;
+  scrollbar-highlight-color: #C0C0C0;
+  scrollbar-track-color: #EBEBEB;
+  scrollbar-arrow-color: black;
+  scrollbar-shadow-color: #C0C0C0;
+  scrollbar-dark-shadow-color: #C0C0C0;
+}
+/*mozilla scrolbalken*/
+@-moz-document url-prefix(http://),url-prefix(https://) {
+scrollbar {
+   -moz-appearance: none !important;
+   background: rgb(0,255,0) !important;
+}
+thumb,scrollbarbutton {
+   -moz-appearance: none !important;
+   background-color: rgb(0,0,255) !important;
+}
+
+thumb:hover,scrollbarbutton:hover {
+   -moz-appearance: none !important;
+   background-color: rgb(255,0,0) !important;
+}
+
+scrollbarbutton {
+   display: none !important;
+}
+
+scrollbar[orient="vertical"] {
+  min-width: 15px !important;
+}
+}
+/**/
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(100, 100, 100, 1);
+    border: solid whiteSmoke 0px;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(43, 41, 43, 1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* MENU DE USUARIO */
+
+/* The side navigation menu */
+.sidenav {
+    height: 0; 
+    width: 210px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 8px;
+    right: 0;
+    /*background-color: #999; */
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    margin-top: 75px;
+    /*padding-top: 60px;*/ 
+    transition: 0.5s; 
+    /*border-radius: 0px 0px 20px 20px;*/
+   /* background: -webkit-linear-gradient(rgb(102,45,66) 30%,rgb(61,27,40));
+    background: -moz-linear-gradient(rgb(102,45,66) 30%,rgb(61,27,40));
+    background: -ms-linear-gradient(rgb(102,45,66) 30%,rgb(61,27,40));
+    background: -o-linear-gradient(rgb(102,45,66) 30%,rgb(61,27,40));*/
+    background-color: rgb(125,125,125);
+}
+
+/* The navigation menu links */
+.sidenav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 1.3rem;
+    color: #fff;
+    display: block;
+    transition: 0.3s
+}
+
+.customDBU{ /*div de cerrar*/
+	border-bottom: 1px solid white;
+	padding-left: 170px;
+}
+
+.customDBU .closebtnBU{
+	font-size: 2.0rem;
+	padding-right: 15px;
+}
+
+.closebtnBU:hover{
+	color: rgb(25,25,25);
+}
+
+.divBarraUsuario{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	border-bottom: 1px solid white;
+	z-index: 5000;
+}
+
+.divBarraUsuario span{
+	float: right;
+	padding-right: 20px;
+	padding-top: 3px;
+}
+
+.divBarraUsuario:hover{
+	color:red;
+	background-color: rgb(70,70,70);
+	cursor: pointer;
+}
+
+.divBarraUsuario:hover span{
+	color: rgb(200,200,200);
+}
+
+/*#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}*/
+
+.divModificado{
+	padding-right: 5px;
+}
+
+.divModificado2{
+	padding-right: 0px;
+}
+
+.h1, .h2, .h3, h1, h2, h3{
+	margin-top: 7px;
+	margin-bottom: 15px;
+}
+
+.form-group{
+	margin-bottom: 7px;
+}
+
+table{
+	text-transform: uppercase;
+}
+
+textarea {
+    resize: none;
+    text-transform: uppercase;
+}
+
+/* Inputs en mayuscula */
+input { 
+    text-transform: uppercase;
+}
+
+select { 
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: none;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: none;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: none;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: none;
+}
+
+/*-------------------------------------------------- END ------------------------------------------------*/
+
+.btnIniciar{
+	background-color: #1c1c1c;
+	color: white;
+}

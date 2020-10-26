@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/******************************************************************************************************
+
+HOJA DE ESTILOS BIINSIDE
+
+*****************************************************************************************************/
+
+
+/*/////////////////////////////////////////////////*/
+
+.contenedor{
+	width: 100%;
+}
+
+.divModificado{
+	padding-right: 5px;
+}
+
+.divModificado2{
+	padding-right: 0px;
+}
+
+.form-group{
+	margin-bottom: 7px;
+}
+
+textarea {
+    resize: none;
+}
+
+.dataTables_wrapper .dt-buttons {
+  position: absolute;
+  bottom: -70px;
+}
+
+div.dataTables_wrapper div.dataTables_length label{
+	position: absolute;
+	left: 25px;
+}
+
+.menuInferior{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+}
+
+/*-------------------------------------------------- END ------------------------------------------------*/

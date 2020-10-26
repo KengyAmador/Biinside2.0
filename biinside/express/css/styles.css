@@ -1,0 +1,599 @@
+@charset "utf-8";
+
+/******************************************************************************************************
+
+CSS TIENDA
+Hoja de estilos para los elementos comunes a todo el sitio
+Estos estilos son generales a todo el sistema
+
+*****************************************************************************************************/
+
+/*------------------------------------------------- ESTILOS -----------------------------------------------*/
+
+/*--------- Estilos Generales ---------*/
+/*Estos estilos aplican a los elementos comunes de todas las paginas*/
+
+body{
+	margin-top: 0px;
+	background: rgb(250,250,250);
+	line-height: 1;
+}
+
+p{
+	color: #777;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.customContainer{
+	width: 98%;
+}
+
+/*/////////////////////////////////////////////////*/
+
+/*--------- Cabecera y navegación ---------*/
+/*This styles apply to the header common content and navigation in all pages*/
+
+#logo{
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	text-align: center;
+	background: url("../img/menu.png");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+
+#logo > h1{ 
+	font-size: 25px;
+	font-size: 2.5rem;
+	font-weight: 600;
+	color: #eee;
+	text-decoration: none;
+	margin-top:30px;
+	text-align:center;
+	line-height:37px;
+}
+
+#main-header{ /*Style for common header navigation*/
+	position: fixed;
+	top: 0;
+	width: 17%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 99;
+
+	/*background-color: rgb(255,255,255);*/
+	background-color:  #419b9b;
+	/* for IE 8 */
+	-ms-filter: "progid:DSImageTransform.Microsoft.gradient(starColorstr=#11000000,endColorstr=#11000000)";
+
+	-mox-box-shadow: 0 1px 5px #999;
+	-webkit-box-shadow: 0 1px 5px #999;
+	box-shadow: 0 1px 5px #999;
+	overflow-x: hidden;
+}
+
+#main-menu{ /*Main navigation menu styles*/
+	float: left;
+	margin-left: 5px;
+}
+
+#main-menu a{
+	color: #888;
+}
+
+#main-menu a:hover{
+	color: #333399;
+}
+
+.panel{
+	border:none;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.list-group-submenu{
+  margin-left:30px;
+}
+
+.ItemPrincipal{
+	font-size: 16px;
+	border-radius: 0px;
+}
+
+.strong{
+	font-weight: bold;
+}
+.list-group-item{
+	height: 42px;
+}
+
+.ItemPrincipal.list-group-item{
+	color: white;
+}
+
+.ItemPrincipal.list-group-item.active{
+	background-color:  #419b9b;
+	border-bottom: solid white 1px;
+	border-top: solid white 1px;
+	border-left: none;
+	border-right: none;
+}
+
+.ItemPrincipal.list-group-item:hover{
+	background-color: #8e6a48;
+	color: white;
+}
+
+.tagItemMenu{
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.tagCaretMenu{
+	margin-left: 5px;
+	font-size: 15px;
+}
+
+.toolBar{
+	margin-top: 80px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 83%;
+	right: 1%;
+	z-index: 97;
+	background: rgba(250,250,250,0.95);
+}
+
+.toolBarExport{
+	margin-top: 125px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 48%;
+	z-index: 97;
+	background: rgba(250,250,250,0.95);
+}
+
+.ExportDiv{
+	margin-top: 125px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 35%;
+	right: 1%;
+	z-index: 97;
+	background: rgba(250,250,250,0.95);
+	padding-right: 6%;
+}
+
+.toolBar2{
+	margin-top: -85px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 83%;
+	right: 1%;
+	z-index: 97;
+	background: rgba(250,250,250,0.95);
+}
+
+#logoCabecera{
+	width: 114px;
+	height: 60px;
+	float: right;
+	background: url("../img/barra.png");
+	background-repeat: no-repeat;
+	margin-top: -65px;
+	margin-right: 15px;
+}
+
+/*/////////////////////////////////////////////////*/
+
+/*---------  Estilos pie de pagina ---------*/
+footer{ /*General style for footer*/
+/*	padding: 10px 0;
+	background-color: rgba(0,0,0,0);
+	text-align: center;
+	color: #333;
+	float: bottom;
+	margin-bottom: 0px;*/
+}
+
+/*/////////////////////////////////////////////////*/
+
+
+/*Estilos para tablas*/
+
+table{
+	padding-top: 10px; 
+}
+
+thead{
+	background-color: #8e6a48;/* #7F4662;*/
+	color: white;
+}
+
+table th{
+	text-align: center;
+	cursor: default;
+	padding-top: 30px;
+}
+
+table tbody{
+	/*background: rgba(193,145,179,0.1);*/
+	background: white;
+}
+
+.tablaRoundIzq{
+	border-radius: 15px 0px 0px 0px;
+}
+
+.tablaRoundDer{
+	border-radius: 0px 15px 0px 0px;
+}
+
+.table thead > tr > th { 
+	border:none;
+}
+
+
+.table-bordered{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.table-bordered thead > th > tr{
+	
+}
+
+#table-content{
+	margin-top: 100px;
+}
+
+#table-content2{
+	margin-top: 290px;
+}
+
+#table-content3{
+	margin-top: 280px;
+}
+
+.tablaEvento tbody tr:hover{
+	background: rgba(153,153,153,0.2);
+	cursor: pointer;
+}
+
+.tablaEvento tbody tr.selected{
+	background: #CCCCFF;
+	cursor: pointer;
+}
+
+hr{
+	margin-top: 30px;
+	border-width: 10px;
+}
+
+.menuPrincipal{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	margin-top: 130px;
+}
+
+.iconoD{
+	font-size: 35px;
+	margin-left: 40px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.iconoDex{
+	font-size: 28px;
+	margin-left: 35px;
+	margin-top: 5px;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+
+.iconoDA{
+	position: relative;
+	float: right;
+	right: 20%;
+}
+
+.iconoD:hover{
+	color: rgb(220,150,60);
+}
+
+.desabilitado{
+	color: rgb(150,150,150);
+}
+
+
+/*Bienvenida */
+
+.bienvenida{
+	padding-top: 150px;
+}
+
+#divContra{
+	margin-top: 30px;
+}
+
+
+.filaActiva{
+	background: rgba(153,153,153,1);
+	cursor: pointer;
+}
+
+/*Grupos*/
+
+/* BOTONES BARRA DE HERRAMIENTAS */
+
+.btnDesabilitar{
+	color: #C7BCC3;
+	cursor: not-allowed;
+}
+
+.btnDesabilitar:hover{
+	color: #C7BCC3;
+}
+
+/*-------------------------------------------------- END ------------------------------------------------*/
+
+.customModal.modal-dialog{
+	width:90%;
+}
+
+.customModalXL.modal-dialog{
+	width:100%;
+}
+
+/* Mensaje oculto animado */
+.alert.alert-success{
+	border:none;
+	position: absolute;
+	margin-left: 15px;
+	background: none;
+}
+
+.oculto{
+	position: relative;
+	margin-left: 15px;
+	background: none;
+	color: rgba(0,0,0,0);
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none;  
+	-moz-user-select: none;  
+	-ms-user-select: none;   
+	user-select: none;   
+	
+}
+
+.nOculto{
+	color: green;
+}
+
+.ch1{
+	padding-top:30px;
+	padding-bottom:10px;
+	font-size:50px;
+	font-size:5.0rem;
+}
+
+.contenidoPrincipal{
+		margin-top: 220px;
+}
+
+
+/* Media queries para gestion responsive  */
+
+/* Para el texto del logotipo del menu lateral */
+@media only screen and (max-width: 1024px) {
+   #logo > h1{ 
+		font-size: 25px;
+		font-size: 2.5rem;
+	}	
+	
+	.ItemPrincipal{
+		font-size: 15px;
+		font-size: 1.5rem;
+	}
+	
+	.tagItemMenu{
+		font-size: 15px;
+		font-size: 1.5rem;
+	}
+
+	.tagCaretMenu{
+		font-size: 15px;
+		font-size: 1.5rem;
+	}
+	
+	.menucito{
+		font-size: 12px;
+		font-size: 1.2rem;
+	}
+}
+
+/* Para las opciones del menu lateral */
+@media only screen and (max-width: 767px) {
+   #logo > h1{ 
+		font-size: 20px;
+		font-size: 2.0rem;
+	}	
+	
+	.tagItemMenu{
+		font-size: 20px;
+		font-size: 2.0rem;
+	}
+
+	.tagCaretMenu{
+		font-size: 20px;
+		font-size: 2.0rem;
+	}
+	
+}
+
+@media (max-width: 767px) {
+    a.ItemPrincipal { font-size: 0; }
+	a.ItemPrincipal .fa { font-size: 20px; font-size: 2.0rem; }
+}
+
+.btnAumentarMargen{
+	margin-top:20px;
+}
+
+textarea{
+	resize:none;
+}
+
+/* Nuevo Abonos */
+.miniLista{
+	height:200px;
+}
+
+#creditosAb{
+	position:absolute;
+}
+
+#creditosAbono{
+	height:150px;
+}
+
+#detalleCreditosAbono{
+	height:150px;
+}
+
+#apartadosAb{
+	position:absolute;
+}
+
+#apartadosAbono{
+	height:150px;
+}
+
+#detalleApartadosAbono{
+	height:150px;
+}
+
+.oculto2{
+	position: relative;
+	background: none;
+	color: rgba(0,0,0,0);
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none;  
+	-moz-user-select: none;  
+	-ms-user-select: none;   
+	user-select: none;   
+	
+}
+
+.nOculto2{
+	color: green;
+}
+
+.filaRoja{
+	background-color:rgb(222,102,110);
+}
+
+.filaVerde{
+	background-color:rgb(190,222,152);
+}
+
+.tablaligera > tbody > tr > td, .tablaligera > tbody > tr > th, .tablaligera > tfoot > tr > td, 
+.tablaligera > tfoot > tr > th, .tablaligera > thead > tr > td, .tablaligera > thead > tr > th{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.bordelineah2{
+	border-bottom: 1px solid #bbb;
+}
+
+.optionMesa{
+	height: 60px;
+	line-height: 50px;
+	background: #8d8c8c;
+	color: white;
+	width: 50px;
+	text-align: center;
+	font-size: 35px;
+	font-size: 3.0rem;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 5px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.optionMesa:hover{
+	color: #40FF94;
+	background-color: #996D3D;
+}
+
+/*Cuando se selecciona una mesa*/
+.optionMesaSelected{
+	color: #FF3A00;
+	background-color: #40FF94;
+	height: 60px;
+	line-height: 50px;
+	width: 50px;
+	text-align: center;
+	font-size: 35px;
+	font-size: 3.0rem;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 5px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+/*Cuando se selecciona una mesa*/
+.optionMesaSelected:hover{
+	color: #FF3A00;
+	background-color: #40FF94;
+}
+
+/* pantalla dividida reimpresion */
+#table-ContractContent{
+	margin-top: 250px;
+	margin-left: 300px;
+}
+
+#factuReimpresion{
+	width: 250px;
+	position:absolute;
+}
+
+#facturC{
+	height:300px;
+	width:220px;
+}
+
+/* ///// */
+
